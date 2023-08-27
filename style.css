@@ -5,6 +5,11 @@
     src: url(SpaceMajesticRegular-d9YLX.otf);
 }
 
+@font-face {
+    font-family: 'Retrochild';
+    src: url(RetroChildRegular-7BnMl.ttf);
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -64,18 +69,29 @@
 
 /* classes da imagem da atmosfera */
 
+.imagem-atmosfera {
+    height: 15rem;
+    background-image: url(imagens/marte-atmosfera.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
-.atmosfera img {
-    max-width: 100%;
-    opacity: 0.8;
+.imagem-atmosfera span p {
+    font-family: 'Retrochild';
+    color: wheat;
+    background-color: #7d4c385a;
+    font-size: 5ch;
+    text-align: center;
 }
 
 .atmosfera p {
     color: wheat;
-    background-color: #1a1a1a65;
+    background-color: #00000065;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
+    padding: 10px;
+    position: relative;
 }
 
 /*----------*/
