@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/* importação dos css */
+
+@import url(section-atmosfera.css);
+@import url(header.css);
+
+/* importação de fontes */
+
+@font-face {
+    font-family: 'Spacemajestic';
+    src: url(../fonts/SpaceMajesticRegular-d9YLX.otf);
+}
+
+@font-face {
+    font-family: 'Retrochild';
+    src: url(../fonts/RetroChildRegular-7BnMl.ttf);
+}
+
+/*redefinição para 0 da margem e do padding de toda a estrutura*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
