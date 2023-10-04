@@ -9,12 +9,12 @@
 
 @font-face {
     font-family: 'Spacemajestic';
-    src: url(./fonts/SpaceMajesticRegular-d9YLX.otf);
+    src: url(../fonts/SpaceMajesticRegular-d9YLX.otf);
 }
 
 @font-face {
     font-family: 'Retrochild';
-    src: url(./fonts/RetroChildRegular-7BnMl.ttf);
+    src: url(../fonts/RetroChildRegular-7BnMl.ttf);
 }
 
 /*redefinição para 0 da margem e do padding de toda a estrutura*/
