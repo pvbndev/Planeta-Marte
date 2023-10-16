@@ -3,7 +3,9 @@
 /* importação dos css */
 
 @import url(section-atmosfera.css);
+@import url(section-fisicas.css);
 @import url(header.css);
+@import url(footer.css);
 
 /* importação de fontes */
 
