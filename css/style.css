@@ -4,6 +4,7 @@
 
 @import url(section-atmosfera.css);
 @import url(section-fisicas.css);
+@import url(section-geologia.css);
 @import url(header.css);
 @import url(footer.css);
 
@@ -18,6 +19,12 @@
     font-family: 'Retrochild';
     src: url(../fonts/RetroChildRegular-7BnMl.ttf);
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+/*font-family: 'Tilt Neon', sans-serif;*/
+
+
 
 /*redefinição para 0 da margem e do padding de toda a estrutura*/
 
