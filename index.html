@@ -1,75 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planeta Marte</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./imagens/marte.ico" type="image/x-icon">
-    <meta name="description" content="Site informativo sobre o planeta Marte.">
-</head>
-<body>
-    <header>
-        <div class="container-header">
-            <img src="./imagens/marte-1.png" alt="">
-            <h1>Marte</h1>
-        </div>
-        <nav>
-            <ul>
-                <li id="icon-menu"><a href="#"><img src="imagens/menu-svgrepo-com.svg" alt=""></a></li>
-                <!--<li><a href="https://api.whatsapp.com/send/?phone=%2B5599992158131&text&type=phone_number&app_absent=0">Sugestões</a></li>-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Sistema Solar</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!--Bootstrap Installer-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!--bootstrap icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- nav -->
+      <nav class="navbar-brand">
+        <a class="navbar-brand d-flex align-items-center flex-column" href="#">
+          <img
+            src="imagens/logo.png"
+            alt="Sistema Solar"
+            width="128"
+            height="128"
+          />
+          <p class="d-flex align-self-center p-1">TECH</p>
+        </a>
+        <div class="navprincipal">
+          <ul class="d-flex align-items-center">
+            <ul class="menu w-100">
+              <li class="p-3"><i class="bi bi-house fs-2"></i></li>
+              <li class="p-3"><i class="bi bi-cart fs-2"></i></li>
+              <li>
+                <div class="searchbar">
+                  <span id="icon-search"><i class="bi-search"></i></span>
+                  <input type="text" id="search" />
+                </div>
+              </li>
             </ul>
-        </nav>
-    </header>
-   <section id="atmosfera">
-        <div class="intro">
-            <h2>Marte, o planeta vermelho.</h2>
-            <img src="./imagens/marte-1.png" alt="">
-            <p>Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema Solar. Batizado em homenagem a divindade romana da guerra, muitas vezes é descrito como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície lhe dá uma aparência avermelhada.
-            <br> <br>
-            Marte é um planeta rochoso com uma atmosfera fina, com características de superfície que lembram tanto as crateras de impacto da Lua quanto vulcões, vales, desertos e calotas polares da Terra. O período de rotação e os ciclos sazonais de Marte são também semelhantes aos da Terra, assim como é a inclinação que produz as suas estações do ano.
-    
-            </p>
+            <ul>
+              <li class="fs-3 p-3">
+                <i class="bi bi-three-dots-vertical d-flex"></i>
+              </li>
+            </ul>
+          </ul>
         </div>
-        <div class="atmosfera">
-            <div class="imagem-atmosfera">
-                <span>
-                    <p>Atmosfera</p>
-                </span>
-            </div>
-            <p>A atmosfera marciana é rarefeita, e a pressão atmosférica na superfície varia de 30 Pa (0,03 kPa) no pico do Olympus Mons para mais de 1 155 Pa (1,155 kPa) nas depressões de Hellas Planitia, com uma pressão média na superfície de 600 Pa (0,6 kPa), comparado à pressão terrestre de 101,3 kPa. <br> <br>A atmosfera de Marte consiste em 95% de dióxido de carbono, 3% nitrogênio, 1,6% argônio, e ainda traços de oxigênio, água, e metano. <br> <br> A atmosfera de Marte é bastante empoeirada, dando ao céu marciano uma cor amarelada quando vista da superfície; dados da Mars Exploration Rovers indicam que partículas suspensas possuem aproximadamente 1,5 micrômetros.</p>
-        </div>
-    </section>
-    <section class="fisicas">
-        <div class="imagem-fisicas">
-            <span>
-                <p>Caracteristicas <br> fisicas</p>
-            </span>
-        </div>
-        <div class="fisicas-texto">
-            <p>Marte tem aproximadamente metade do diâmetro da Terra. Ele é menos denso do que a Terra, tendo cerca de 15% do seu volume e 11% de sua massa, resultando em uma aceleração da gravidade na superfície que é cerca de 38% da que se observa na Terra. <br> <br> A superfície marciana é apenas ligeiramente menor do que a área total de terra firme do planeta Terra. Apesar de Marte ser maior e mais massivo do que Mercúrio, este tem uma densidade mais elevada, com o que os dois planetas têm uma força gravitacional quase idêntica na superfície — a de Marte é mais forte por menos do que 1%. <br> <br> A aparência vermelho-alaranjada da superfície marciana é causada pelo óxido de ferro (III), mais comumente conhecido como hematita, ou ferrugem. Pode também parecer caramelo, enquanto outras cores comuns de superfície incluem dourado, marrom e esverdeado, dependendo dos minerais presentes. Estudo sugere que Marte teve um anel bilhões de anos atrás.</p>
-        </div>
-        <div class="geologia">
-            <h2>Geologia</h2>
-            <p>Marte é um planeta rochoso que consiste em minerais contendo silício e oxigênio, metais e outros elementos que normalmente compõem rocha. A superfície de Marte é composta principalmente de basalto toleítico, embora parte seja mais rica em sílica que o basalto típico e possa ser semelhantes às rochas andesíticas da Terra ou ao vidro de sílica. Regiões de baixo albedo apresentam concentrações de plagioclásios, sendo que as regiões de albedo mais baixo, ao norte, exibem concentrações superiores às normais de silicatos e de vidro de sílica. Partes das terras altas ao sul incluem quantidades detectáveis de piroxênios com alto teor de cálcio. Concentrações localizadas de hematita e olivina também foram encontradas. A maior parte da superfície está profundamente coberta por uma camada de pó de óxido de ferro (III) de textura fina.
-
-            <br> <br>
-
-            <p>Embora Marte não apresente qualquer evidência de possuir um campo magnético estruturado global, observações mostram que partes da crosta do planeta foram magnetizadas e que inversões geomagnéticas já ocorreram no passado. Este paleomagnetismo de minerais magneticamente suscetíveis tem propriedades que são muito semelhantes às faixas alternadas encontradas no fundo dos oceanos da Terra. Uma teoria, publicada em 1999 e reexaminada em outubro de 2005 (com a ajuda da Mars Global Surveyor), indica que essas faixas demonstram a existência de placas tectônicas em Marte há quatro bilhões de anos, antes de o dínamo planetário ter deixado de funcionar e o campo magnético do planeta ter desaparecido, talvez por causa de um excesso de hidrogênio, liberado pela dissociação da água próximo ao núcleo quente.</p>
-            </p>
-        </div>
-    </section>
-
-    
-
-    <footer>
-        <div id="redes">
-            <a href="https://github.com/pvbndev/Planeta-Marte">
-                <img src="imagens/git-commit.png" alt="Repositório" id="repositorio"></a>
-            <a href="https://www.instagram.com/pv.nqw/"><img src="imagens/logotipo-do-instagram.png" alt="Instagram"></a>
-            <a href="https://github.com/pvbndev"><img src="imagens/logo-github.png" alt="GitHub"></a>
-            <p>Feito por Pedro Vinicius</p>
-        </div>
-    </footer>
-</body>
+      </nav>
+    </div>
+  </body>
 </html>

@@ -1,34 +1,54 @@
-@charset "UTF-8";
+/*import das fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/* importação dos css */
+/* nav */
 
-@import url(section-atmosfera.css);
-@import url(section-fisicas.css);
-@import url(section-geologia.css);
-@import url(header.css);
-@import url(footer.css);
-
-/* importação de fontes */
-
-@font-face {
-    font-family: 'Spacemajestic';
-    src: url(../fonts/SpaceMajesticRegular-d9YLX.otf);
+nav p {
+    color: #000;
+    font-size: 32px;
+    font-family: "Nova Square";
 }
 
-@font-face {
-    font-family: 'Retrochild';
-    src: url(../fonts/RetroChildRegular-7BnMl.ttf);
+nav ul {
+    list-style: none;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
-/*font-family: 'Tilt Neon', sans-serif;*/
+.menu {
+    display: inline-flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.searchbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+#icon-search {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+    white-space: nowrap;
+    background-color: rgb(213, 213, 213);
+    border: 1px solid gray;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 
 
-
-/*redefinição para 0 da margem e do padding de toda a estrutura*/
-
-* {
-    margin: 0px;
-    padding: 0px;
+#search {
+    border: 1px solid gray;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
